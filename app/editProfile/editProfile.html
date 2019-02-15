@@ -1,0 +1,22 @@
+<div class="formContainer">
+    <form ng-submit="$ctrl.submitForm($ctrl.update)">
+
+        <h4>Name</h4>
+
+        <input ng-model="$ctrl.update.name" type="text" placeholder="Name">
+
+        <h4>Contact</h4>
+
+        <input ng-model="$ctrl.update.contact" type="text" placeholder="Contact">
+
+        <h4>Bio</h4>
+
+        <textarea ng-model="$ctrl.update.bio"></textarea>
+        <div class="buttonContainer">
+            <button class="updateButton">Update</button>
+        </div>
+
+
+
+    </form>
+</div>

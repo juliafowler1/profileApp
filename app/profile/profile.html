@@ -1,0 +1,14 @@
+<div class="appContainer">
+
+    <div class="imgContainer">
+        <img src="reaper.jpg">
+    </div>
+
+    <div class="profileContainer">
+
+        <h3>{{$ctrl.profileObject.name}} </h3>
+        <p class="contact">{{$ctrl.profileObject.contact}}</p>
+        <p>{{$ctrl.profileObject.bio}}</p>
+        <button class="edit" ng-click="$ctrl.getEditPage()">Edit</button>
+    </div>
+</div>
